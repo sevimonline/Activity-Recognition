@@ -1,0 +1,18 @@
+
+<!-- \begin{center} -->
+<!-- \large \textbf{Furkan PAŞAHAN, Berke SEVİM, Mert KAVAS, Furkan ERGÜNEŞ} -->
+<!-- \end{center} -->
+
+
+<!-- \begin{center} -->
+<!-- \large \textbf{Dokuz Eylül Üniversitesi, Fen Fakültesi, İstatistik Bölümü, Tınaztepe Kampüsü, Buca, İzmir, Türkiye} -->
+<!-- \end{center} -->
+
+<!-- İnsanların günlük yaşantılarında gerçekleştirdikleri aktiviteler; basit ve karmaşık olarak iki kategoriye ayrılmaktadır. Bu çalışmada Python yazılım dili ile basit aktiviteler üzerinde araştırma ve analiz yapılmıştır. Projede kullanılan hedef aktiviteler hareketli ve hareketsiz olarak 2 sınıfa ayrılmıştır. Hareketli aktiviteler, “Yürüme”, “Merdiven Çıkma”, “Merdiven İnme”. Hareketsiz aktiviteler ise “Yatma”, “Ayakta Durma”, “Oturma” olarak alt sınıflara ayrılmıştır. Teknolojinin gelişmesi ile birlikte aktivite tanıma çalışmaları büyük bir ivme kazanmıştır. Bu tanıma işlemleri sensörler vasıtası ile yapılmaktadır. Yapılan çalışmalarda kullanılan başlıca sensörler “İvmeölçer” ve “Jiroskop” olarak saptanmıştır. Bu çalışmada 5744 adet aktivite verisi jiroskop ve ivmeölçer sensörleri yardımı ile toplanılmıştır. Toplanan bu veriler 561 farklı parametre üzerinden incelenmiştir. Bu çalışmada makine öğrenmesi Geleneksel yöntemler, Ağaç yöntemleri ve Gelişmiş Yöntemler olmak üzere 3 sınıfta kategorize edilmiştir. Geleneksel yöntemler olarak KNN ve Destek Vektör Makineleri incelenmiştir. Ağaç yöntemleri olarak Rastgele Ormanlar ve XGBoost yöntemleri incelenmiştir. Gelişmiş yöntemlerde ise Yapay Sinir Ağları modeli ele alınmıştır. Projede kullanılan iki sensör 3 farklı grupta incelenmiştir; “Jiroskop Sensörüne Ait Değişkenler” , “İvmeölçer Sensörüne Ait Değişkenler”, “Jiroskop ve İvmeölçer Sensörlerine Ait Değişkenler” şeklinde üç ayrı değişken grubu seçilen 5 farklı makine öğrenmesi methoduna entegre edilerek F1 skorlarına göre en iyi model tespit edilmiştir. GridSearchCV algoritması en yüksek doğruluk oranına sahip parametreleri seçmemizde yardımcı olmuştur.  -->
+
+Akıllı telefonların ve giyilebilir teknolojilerin günlük hayata girmesi farklı uygulamaların yaygın olarak kullanılmasını sağlamıştır. Bu cihazlarda bulunan sensörlerden elde edilen veriler ile aktivitenin tanınması da bu uygulamalardan biridir. Aktiviteler temel olarak yürüme, koşma gibi basit aktiviteler ve yemek yeme, uyuma, diş fırçalama gibi karışık aktiviteler olmak üzere ikiye ayrılmaktadır.Bu çalışmada, ivmeölçer ve jireskop sensörleri ile elde edilmiş veriler kullanılarak aktivitelerin “Yürüme”, “Merdiven Çıkma”, “Merdiven İnme”, “Yatma”, “Ayakta Durma”, “Oturma” olarak sınıflandırılması problemi incelenmiştir. Uygulamada üç farklı yaklaşımda gruplanabilecek k-en yakın komşu, destek vektör makineleri, rassal ormanlar, XGBoost ve yapay sinir ağları yöntemleri kullanılmıştır. Sınıflandırma yöntemlerinin performansı tek sensörden elde edilen değişkenler ve her iki sensörden de elde edilen tüm değişkenler kullanılarak ayrı ayrı değerlendirilmiştir. Sonuçlar, farklı performans ölçütleri ile karşılaştırılmıştır. Aktivitelerin sınıflandırılmasında en iyi model her iki sensörden elde edilen değişkenlerin yapay sinir ağları yöntemiyle kullanılmasıyla elde edilmiştir. Uygulamada Python programlama dili kullanılmıştır.
+
+\  
+
+**Anahtar Kelimeler**: aktivite tanıma, makine öğrenimi, sensör verileri
+

@@ -1,0 +1,61 @@
+<!--
+This is for including Chapter 1.  Notice that it's also good practice to name your chunk.  This will help you debug potential issues as you knit.  The chunk above is called intro and the one below is called chapter1.  Feel free to change the name of the Rmd file as you wish, but don't forget to change it here from chap1.Rmd.
+-->
+
+<!--
+The {#rmd-basics} text after the chapter declaration will allow us to link throughout the document back to the beginning of Chapter 1.  These labels will automatically be generated (if not specified) by changing the spaces to hyphens and capital letters to lowercase.  Look for the reference to this label at the beginning of Chapter 2.
+-->
+
+# Aktivite Tanıma 
+<!-- {#rmd-basics} -->
+
+Teknolojinin gelişimi ve elektronik devrelerin küçülmesi ile sadece bilgisayarlar ve akıllı telefonlar değil aynı zamanda günlük hayatta kullanılan kıyafet ve aksesuarlara sensör vb. donanımlar eklenerek akıllı cihaza dönüştürülebilmekte ve bunlar da kendi aralarında haberleşebilmektedir.Bu yüzden, kullanıcı veri alışverişi ve hesaplama gibi işlemlerini, daha büyük bilgisayarlara ihtiyaç duymadan vücuduna monte durumda bulunan elektronik devreler veya üzerine giydiği kıyafetlerinin hesaplama ve haberleşme yeteneği kazanması sonucunda kolayca sağlayabilmektedir.
+
+Son yıllarda özellikle akıllı telefonların ve giyilebilir cihazların gelişmesiyle birlikte aktivite tanıma alanındaki çalışmalar hız kazanmıştır.Giyilebilir teknoloji, aksesuar olarak giyilebilen, giysiye gömülü, kullanıcının vücuduna yerleştirilmiş veya hatta cilde dövülmüş bir elektronik cihaz kategorisidir.Cihazlar pratik kullanımlı, mikroişlemciler tarafından desteklenen ve İnternet üzerinden veri gönderme ve alma özelliğine sahip cihazlardır.Nesnelerin internetinin (IoT) arkasındaki amaç, gerçek zamanlı olarak kendini raporlayan, verimliliği artıran ve önemli bilgileri yüzeye insan müdahalesine bağlı bir sistemden daha hızlı bir şekilde getiren cihazlara sahip olmaktır.
+
+Giyilebilir teknoloji, bir aksesuar olarak veya giyside kullanılan malzemenin bir parçası olarak, vücut üzerinde takılabilen elektronikler bir alettir.Çok sayıda giyilebilir teknoloji vardır, ancak en popüler cihazlardan bazıları etkinlik izleyicileri ve akıllı saatlerdir.
+
+## Aktivite
+
+İnsanların günlük yaşantılarında gerçekleştirdikleri aktiviteler; basit (basic) ve karmaşık (complex) olarak iki kategoriye ayrılmaktadır.Basit aktivitelere; oturma, merdiven çıkma, merdiven inme, koşma, yürüme gibi aktiviteler örnek verilebilir.Birden fazla aktivitenin birlikte gerçekleştirilmesiyle oluşan karmaşık aktivitelere; ilaç kullanmak, araba kullanmak, evi temizlemek ve bilgisayar kullanmak gibi aktiviteler olarak literatürdeki çalışmalarda da yer verilmektedir.
+
+Basit ve karmaşık aktiviteleri tanıma işlemleri bazı cihaz ve sensörler yardımıyla yapılmaktadır.Aktivite tanıma çalışmaları 1980’li yıllarda başlamıştır[@paul2015effective].Teknolojinin gelişmesi ile birlikte bu çalışmalar hızlı bir ivme kazanmıştır. İnsan aktivitelerini tanımak hayatımıza katma değer katmak ile beraber işlerimizi kolaylaştırmaktadır.
+
+### Basit Aktivite
+
+Basit aktiviteleri tahminlemek ve çalışmalar yapmak daha kolaydır.En çok tercih edilen aktivite çalışmalarıdır.Çalışmalar genel olarak yürüme, koşma, oturma, merdiven çıkma ve inme vb. gibi basit aktiviteleri tahminleme üzerine  yapılmaktadır.Bu aktiviteler için en iyi elde edilen doğruluk oranı ise ivmeölçer, jiroskop ve mıknatıs ölçer kullanarak %97'dir[@ustev2013user].
+
+### Karışık Aktivite
+
+Karışık aktiviteler aslında basit aktivitelerden oluşmaktadır.Bu aktiviteleri tahminlemek daha zordur.Örnek vermek gerekir ise duş almak, ders çalışmak, diş fırçalama vb. aktiviteler karmaşık aktivite olarak örneklendirilebilir.Bu aktiviteleri tanımlayabilmek için birden fazla sensör ve teknoloji aynı anda kullanılması gerekmektedir.Karmaşık Aktivitelerde en iyi doğruluk oranı ivmeölçer ve GPS kullanarak %93.44 olarak kayıtlara geçmiştir[@riboni2011cosar].
+
+### Aktivite Tanıma Uygulamaları
+
+Aktivite tanıma uygulamalarının kullanılabilecek alanları başta sağlık hizmetleri olmak üzere akıllı ortam, güvenlik ve benzerleridir[@chen2012sensor].Akıllı ortamlar ile ilgili verilebilecek örnekler arasında evden çıktığımızda otomatik olarak kombi, klima ve  ışıkların kapatılması gibi örnekler verilebilir.Sağlık alanında ise kişisel aktivite asistanı, yaşlılar ve hastalar için uzun süre sabit kalınması durumunda uyarı sistemi söylenebilir.Karmaşık aktivitelerin kullanım alanlarında örnek vermek gerekir ise insanların çalışma durumları ve verimlilikleri tanımlanıp çalışma tempoları ve performans ölçümleri yapılabilmektedir.
+
+## Sensör
+
+Sensör amacı ortamdaki değişiklikleri farketmek ve diğer elektronik cihazlara bilgi göndermek olan bir cihaz alt sistemlerdir.
+
+### Aktivite Tanımada Kullanılan Sensörler
+
+- İvmeölçer : Cihazın 3 eksende (x,y,z) ivmesini ölçer.
+- Jiroskop : Cihazın (x,y,z) 3 eksende rotasyonunu (dönüşünü) ölçer.
+-	Gps (Global positioning system) : Cihazın konumunu belirler.
+- Mıknatıs Ölçer : Cihazın bulunduğu ortamdaki manyetik alanın ölçümünü yapar.
+
+### Aktivite Tanımada Sensör Kullanımı
+
+Cihazlardaki dahili sensörler ise aktivite tanımayı daha kolay hale getirmiştir.Akıllı telefon ve akıllı saatler kolay ulaşılabilir ve sürekli üzerimizde çalışır halde bulunuyor olduğundan çoğunlukla basit aktiviteleri tanımada akıllı cihazlarda bulunan sensörler kullanılır.Yürüme, koşma, merdiven inme, merdiven çıkma, uzanma ,ayakta durma vs. basit aktiviteleri tanımada çoğunlukla ivmeölçer, jiroskop ve gps sensörleri kullanılmıştır.
+
+Aktivite tanımada hem dahili hem harici sensörler kullanılmaktadır.Akıllı ev, akıllı ofis gibi vb. yerlerde karışık aktivitelerin tespitinde harici sensörler kullanılmaktadır.Örneğin akıllı evlerde sensörler ortamda kimseyi tespit etmediğinde klima ve ışıkların otomatik kapatılmasını sağlıyor.Kamera,mikrofon vb. sensörler harici sensörlerdir[@khan2008accelerometer;@kwapisz2011activity]. 
+
+Bu çalışmalar temelinde her bir insan aktivitesini farklı sınıf etiketleri olarak algılarlar ve sensör verilerinden elde ettikleri öznitelikler ile bu sınıf etiketlerinin tespiti üzerine kurulum sağlanır.Bu aktivitelerin tanınmasında farklı makine öğrenmesi algoritmaları kullanılmıştır.
+
+Akıllı cihazlar ile yapılan bazı çalışmaları inceleyecek olursak;
+
+-	Fan ve arkadaşlarının yaptığı çalışmada  sabit durma, yürüme, koşma, merdiven inme ve çıkma aktivitelerinin karar ağacı algoritması kullanılarak tanınması amaçlanmıştır ve algoritmanın çalışma süresi sonunda %80 civarında doğrulukla aktiviteler tanınmıştır[@fan2013human].
+
+-	Yang ve arkadaşlarının yaptığı çalışmada basit aktivitelerin yanı sıra diş fırçalama, temizlik ve bilgisayarda çalışma gibi aktiviteler de izlenmiş, sinir ağları ve geleneksel makine öğrenmesi algoritmaları performans açısından kıyaslanmıştır ve elde edilen sonuçlar sinir ağlarının bu aktivitelerini %95’lik genel doğruluk oranında tanıyabildiğini ortaya koymuştur[@yang2008using].
+
+-	Uzun Kısa Süreli Bellek (UKSB) hücreleri ile insan aktivitelerinin sınıflandırılmasında %92,1 test başarım doğruluğunda bir sonuca, halkın kullanımına açık bir veri kümesi üzerinde yapılan bir çalışmada ulaşılmıştır[@du2015skeleton].

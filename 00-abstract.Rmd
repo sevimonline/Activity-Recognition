@@ -1,0 +1,8 @@
+
+The introduction of smartphones and wearable technologies into daily life has led to the widespread use of different applications. Recognizing activity with the data obtained from the sensors in these devices is one of these applications. Activities are basically divided into simple activities such as walking, running, and complex activities such as eating, sleeping, brushing teeth, etc. In this study, the problem of classifying activities as "Walking", "Climbing Stairs", "Descending Stairs", "Lying Down", "Standing", "Sitting" using data obtained with accelerometer and gyroscope sensors is investigated. In the application, k-nearest neighbor, support vector machines, random forests, XGBoost and artificial neural networks, which can be grouped into three different approaches, were used. The performance of the classification methods is evaluated separately using variables obtained from a single sensor and all variables obtained from both sensors. The results are compared with various performance metrics. The best model for the classification of activities was obtained by using the variables obtained from both sensors with the artificial neural network method. Python programming language was used in the implementation.
+
+\  
+
+**Keywords**: activity recognition, machine learning, sensor data
+
+

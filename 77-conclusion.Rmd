@@ -1,0 +1,19 @@
+# Sonuç {#red-labels}
+
+Bu çalışmada, insan aktivitelerini tanımak için makine öğrenmesi yöntemleri kullanarak modeller geliştirilmiştir. Farklı modeller arasında karşılaştırma yaparak en iyi sonucu elde etmek için çeşitli deneyler gerçekleştirilmiştir. 
+Tablo \@ref(tab:sonuc)'a göre, sadece jiroskop sensöründen elde edilen değişkenler ile geliştirilen modeller arasında en başarılı sonuç Rassal Ormanlar, Destek Vektör Makinesi ve Yapay Sinir Ağları modelleri ile elde edilmiştir. Sadece ivmeölçer sensöründen elde edilen değişkenler ile geliştirilen modeller arasında en başarılı sonuç K en yakın komşular ve Yapay sinir ağları modelleri ile elde edilmiştir. Her iki sensörle elde edilen değişkenler ile geliştirilen modeler arasında en başarılı sonuç Yapay Sinir Ağları Modeli ile elde edilmiştir
+Yapay sinir ağları modeli, karmaşık ilişkileri yakalama yeteneğiyle öne çıkmıştır. Derin öğrenme tabanlı modelin eğitimi için geniş bir veri kümesi kullanılmıştır ve ardından modeli optimize etmek için çeşitli hiperparametre ayarlamaları yapılmıştır. Bu ayarlamaları GridSearchCV algoritması yardımı ile yapılmıştır. Modeli eğitirken, aşırı öğrenmeyi önlemek için Droupout tekniği uygulanmıştır.
+Sonuçlar, yapay sinir ağları modelinin, yüksek bir doğruluk oranı ve genel performans ile insan aktivitelerini tanımada diğer modellere göre daha başarılı olduğunu göstermiştir. Bu model, farklı aktiviteler arasında hassas bir şekilde ayrım yapabilmiş ve gerçek zamanlı uygulamalarda kullanıma uygun olduğu düşünülmüştür.
+Bu proje, insan aktivitelerini otomatik olarak tanımlayarak sağlık izleme sistemleri, yaşlı bakımı, spor performans analizi ve güvenlik uygulamaları gibi birçok alanda kullanılabilir. Yapay sinir ağları tabanlı modelimizin geliştirilmesi, insan aktivitelerini anlama ve analiz etme konusunda yeni fırsatlar sunmaktadır.
+
+
+Table: (\#tab:sonuc) Yöntemlere ve Sensörlere göre F1 skorları
+
+Yöntemler                   Jiroskop                    İvmeölçer                   Jiroskop ve İvmeölçer
+-------------------------- --------------------------- ---------------------------- -----------------------------------
+KNN                           0.82                        0.91                        0.91
+Rassal Ormanlar               0.91                        0.88                        0.92
+XGBoost                       0.89                        0.89                        0.87
+Destek Vektör Makinesi        0.91                        0.90                        0.85
+Yapay Sinir Ağları            0.91                        0.91                        0.95
+

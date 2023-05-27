@@ -1,0 +1,45 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Biyolojik sinir hücresi ve yapay sinir ağı\relax }}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Yapay sinir hücresi\relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces İleri beslemeli sinir ağı yapısı\relax }}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces TSA‘nın genel yapısı\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Evrişimli Sinir Ağları Yapısı\relax }}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Karışıklık matrisi örneği\relax }}{17}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Hedef değişkene göre gözlem sayıları\relax }}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sabit ve hareketli aktiviteler için tBodyAccMagmean değişkeninin yoğunluk grafiği\relax }}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sabit ve hareketli aktivitelerin yoğunluk grafiklerinin karşılaştırılması\relax }}{22}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces tBodyAccMagmean Değişkeninin Aktivitilere Göre BoxPlot Grafiği\relax }}{23}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces K-NN Modeli Karmaşıklık Matrisi\relax }}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces K-NN Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{27}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Rassal Ormanlar Modeli Karmaşıklık Matrisi\relax }}{28}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Rassal Ormanlar Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces XGBoost Modeli Karmaşıklık Matrisi\relax }}{30}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces XGBoost Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Destek Vektör Makinesi Modeli Karmaşıklık Matrisi\relax }}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Destek Vektör Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Yapay Sinir Ağları Modeli Karmaşıklık Matrisi\relax }}{33}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Jiroskop Sensörü İçin Yapay Sinir Ağları Modelinin Epochs Değerlerine Göre Eğitim ve Test Verilerinin Başarı Performansları\relax }}{34}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces K-NN Modeli Karmaşıklık Matrisi\relax }}{35}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces K-NN Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{35}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Rassal Ormanlar Modeli Karmaşıklık Matrisi\relax }}{37}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Rassal Ormanlar Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{37}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Xgboost modeli Karmaşıklık Matrisi\relax }}{38}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Xgboost Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{39}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Destek Vektör Makinesi Modeli Karmaşıklık Matrisi\relax }}{40}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Destek Vektör Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{40}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Yapay Sinir Ağları Modeli Karmaşıklık Matrisi\relax }}{42}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces İvme Ölçer Sensörü İçin Yapay Sinir Ağları Modelinin Epochs Değerlerine Göre Eğitim ve Test Verilerinin Başarı Performansları\relax }}{42}{figure.caption.68}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces K-NN Modeli Karmaşıklık Matrisi\relax }}{44}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces K-NN Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{44}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Rassal Ormanlar Modeli Karmaşıklık Matrisi\relax }}{45}{figure.caption.75}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Rassal Ormanlar Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{46}{figure.caption.76}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces XGBoost Modeli Karmaşıklık Matrisi\relax }}{47}{figure.caption.79}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces XGBoost Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{47}{figure.caption.80}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Destek Vektör Makinesi Modeli Karmaşıklık Matrisi\relax }}{49}{figure.caption.83}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Destek Vektör Modelinin Eğitim ve Test Verilerinin Başarı Performansları\relax }}{49}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Yapay Sinir Ağları Modeli Karmaşıklık Matrisi\relax }}{51}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Jiroskop ve İvme Ölçer Sensörleri İçin Yapay Sinir Ağları Modelinin Epochs Değerlerine Göre Eğitim ve Test Verilerinin Başarı Performansları\relax }}{51}{figure.caption.88}%
+\addvspace {10\p@ }

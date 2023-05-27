@@ -1,0 +1,83 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Giriş}{1}{chapter*.8}%
+\contentsline {chapter}{Chapter 1: Aktivite Tanıma}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Aktivite}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Basit Aktivite}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Karışık Aktivite}{4}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Aktivite Tanıma Uygulamaları}{4}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Sensör}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Aktivite Tanımada Kullanılan Sensörler}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Aktivite Tanımada Sensör Kullanımı}{5}{subsection.1.2.2}%
+\contentsline {chapter}{Chapter 2: YÖNTEM}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Geleneksel Yöntemler}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}K En Yakın Komşular Algoritması}{7}{subsection.2.1.1}%
+\contentsline {subsubsection}{K En Yakın Komşular algoritmasında temel olarak aşağıdaki adımlar gerçekleştirilir:}{7}{section*.9}%
+\contentsline {subsection}{\numberline {2.1.2}Destek Vektör Makinesi}{8}{subsection.2.1.2}%
+\contentsline {subsubsection}{Hiper düzlem nedir}{8}{section*.10}%
+\contentsline {section}{\numberline {2.2}Ağaç Yöntemleri}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Rassal Ormanlar (Random Forest)}{9}{subsection.2.2.1}%
+\contentsline {subsubsection}{Algoritma}{9}{section*.12}%
+\contentsline {subsection}{\numberline {2.2.2}XGBoost}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Sinir Ağları Yöntemleri}{10}{section.2.3}%
+\contentsline {subsubsection}{İleri beslemeli ağlar}{13}{section*.16}%
+\contentsline {subsubsection}{Geri beslemeli ağlar}{13}{section*.17}%
+\contentsline {subsection}{\numberline {2.3.1}Tekrarlayan Sinir Ağları (Recurrent Neural Network)}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Evrişimli Sinir Ağları (Convolutional Neural Network)}{15}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Makine öğrenmesi değerlendirme ölçütleri}{17}{section.2.4}%
+\contentsline {subsubsection}{Doğruluk (Accuracy)}{18}{section*.21}%
+\contentsline {subsubsection}{Duyarlılık (Recall)}{18}{section*.22}%
+\contentsline {subsubsection}{Kesinlik (Precision)}{18}{section*.23}%
+\contentsline {subsubsection}{F1 Skoru (F1 Score)}{18}{section*.24}%
+\contentsline {chapter}{Chapter 3: UYGULAMA}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Uygulama}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Çok Sınıflı (Multiclass) Sınıflama Problemi}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Jiroskop Sensörüne Ait Değişkenler İle Modelleme}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}KNN Modeli}{25}{subsection.3.3.1}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{25}{section*.29}%
+\contentsline {subsubsection}{En İyi Model}{26}{section*.30}%
+\contentsline {subsection}{\numberline {3.3.2}Rassal Ormanlar Modeli}{27}{subsection.3.3.2}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{27}{section*.33}%
+\contentsline {subsubsection}{En İyi Model}{27}{section*.34}%
+\contentsline {subsection}{\numberline {3.3.3}eXtreme Gradient Boosting (XGBoost)}{29}{subsection.3.3.3}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{29}{section*.37}%
+\contentsline {subsubsection}{En İyi Model}{29}{section*.38}%
+\contentsline {subsection}{\numberline {3.3.4}Destek Vektör Makinesi}{30}{subsection.3.3.4}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{30}{section*.41}%
+\contentsline {subsubsection}{En İyi Model}{31}{section*.42}%
+\contentsline {subsection}{\numberline {3.3.5}Yapay Sinir Ağları (Neural Networks)}{32}{subsection.3.3.5}%
+\contentsline {subsubsection}{Kullanılan Katmanlar}{32}{section*.45}%
+\contentsline {subsubsection}{En iyi Model}{32}{section*.46}%
+\contentsline {section}{\numberline {3.4}İvme Ölçer Sensörüne Ait Değişkenler İle Modelleme}{34}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}K-En Yakın Komşuluk Modeli}{34}{subsection.3.4.1}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{34}{section*.49}%
+\contentsline {subsubsection}{En İyi Model}{34}{section*.50}%
+\contentsline {subsection}{\numberline {3.4.2}Rassal Ormanlar Modeli}{36}{subsection.3.4.2}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{36}{section*.53}%
+\contentsline {subsubsection}{En İyi Model}{36}{section*.54}%
+\contentsline {subsection}{\numberline {3.4.3}eXtreme Gradient Boosting (XGBoost)}{37}{subsection.3.4.3}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{37}{section*.57}%
+\contentsline {subsubsection}{En İyi Model}{38}{section*.58}%
+\contentsline {subsection}{\numberline {3.4.4}Destek Vektör Makinesi}{39}{subsection.3.4.4}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{39}{section*.61}%
+\contentsline {subsubsection}{En İyi Model}{39}{section*.62}%
+\contentsline {subsection}{\numberline {3.4.5}Yapay Sinir Ağları (Neural Networks)}{40}{subsection.3.4.5}%
+\contentsline {subsubsection}{Kullanılan Katmanlar}{41}{section*.65}%
+\contentsline {subsubsection}{En iyi Model}{41}{section*.66}%
+\contentsline {section}{\numberline {3.5}Jiroskop ve İvme Ölçer Sensörlerine Ait Değişkenler İle Modelleme}{42}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}K-En Yakın Komşuluk Modeli}{42}{subsection.3.5.1}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{43}{section*.69}%
+\contentsline {subsubsection}{En İyi Model}{43}{section*.70}%
+\contentsline {subsection}{\numberline {3.5.2}Rassal Ormanlar Modeli}{44}{subsection.3.5.2}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{44}{section*.73}%
+\contentsline {subsubsection}{En İyi Model}{45}{section*.74}%
+\contentsline {subsection}{\numberline {3.5.3}eXtreme Gradient Boosting (XGBoost)}{46}{subsection.3.5.3}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{46}{section*.77}%
+\contentsline {subsubsection}{En İyi Model}{46}{section*.78}%
+\contentsline {subsection}{\numberline {3.5.4}Destek Vektör Makinesi}{47}{subsection.3.5.4}%
+\contentsline {subsubsection}{Hiper Parametre Seçimi}{48}{section*.81}%
+\contentsline {subsubsection}{En İyi Model}{48}{section*.82}%
+\contentsline {subsection}{\numberline {3.5.5}Yapay Sinir Ağları (Neural Networks)}{49}{subsection.3.5.5}%
+\contentsline {subsubsection}{Kullanılan Katmanlar}{49}{section*.85}%
+\contentsline {subsubsection}{En iyi Model}{50}{section*.86}%
+\contentsline {chapter}{Chapter 4: Sonuç}{53}{chapter.4}%
+\contentsline {chapter}{Kaynaklar}{55}{chapter*.89}%
